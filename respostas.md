@@ -60,8 +60,7 @@ R: docker compose down
 A. Arquivos e Git
 [ OK ] A1 portal/Dockerfile segue os requisitos
 [ OK ] A2 .env fora do Git e .env.example versionado
-[FALHA] A3 4+ commits e remoto no GitHub (encontrados: 3)
-         -> faça um commit por parte e configure o origin
+[ OK ] A3 4+ commits e remoto no GitHub (encontrados: 5)
 [ OK ] A4 imagem matheusraiano/viaserra-portal:1.0-26174983 pública no Docker Hub
 
 B. docker compose
@@ -74,7 +73,8 @@ C. Conteúdo
 [ OK ] C2 página de manutenção servindo o aviso "Voltamos em breve"
 
 ================================================================
- Resultado: 8/9 verificações
- Ainda há falhas. Corrija e rode de novo.
+ Resultado: 9/9 verificações
+ Código de conclusão: VIASERRA-26174983-CCE1E231
+ Copie o código para o respostas.md, tire o print desta tela e faça o commit final.
 ================================================================
 ```
