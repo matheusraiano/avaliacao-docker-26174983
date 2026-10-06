@@ -58,10 +58,9 @@ R: docker compose down
  Matrícula 26174983 · portal 8083 · manutenção 7083
 
 A. Arquivos e Git
-[FALHA] A1 portal/Dockerfile segue os requisitos
-         -> imagem base sem tag fixa (ou :latest).
+[ OK ] A1 portal/Dockerfile segue os requisitos
 [ OK ] A2 .env fora do Git e .env.example versionado
-[FALHA] A3 4+ commits e remoto no GitHub (encontrados: 2)
+[FALHA] A3 4+ commits e remoto no GitHub (encontrados: 3)
          -> faça um commit por parte e configure o origin
 [ OK ] A4 imagem matheusraiano/viaserra-portal:1.0-26174983 pública no Docker Hub
 
@@ -75,7 +74,7 @@ C. Conteúdo
 [ OK ] C2 página de manutenção servindo o aviso "Voltamos em breve"
 
 ================================================================
- Resultado: 7/9 verificações
+ Resultado: 8/9 verificações
  Ainda há falhas. Corrija e rode de novo.
 ================================================================
 ```
